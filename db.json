@@ -3,5 +3,11 @@
     { "id": 1, "title": "To eat", "checked": false },
     { "id": 2, "title": "To drink", "checked": true },
     { "id": 3, "title": "To sleep", "checked": false }
+  ],
+  "people": [
+    { "id": 1, "name": "Иван", "points": 14 },
+    { "id": 2, "name": "Петр", "points": 12 },
+    { "id": 3, "name": "Сергей", "points": 17 },
+    { "id": 4, "name": "Андрей", "points": 10 }
   ]
 }
