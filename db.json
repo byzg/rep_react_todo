@@ -4,7 +4,7 @@
     { "id": 2, "title": "To drink", "checked": true },
     { "id": 3, "title": "To sleep", "checked": false }
   ],
-  "people": [
+  "users": [
     { "id": 1, "name": "Иван", "points": 14 },
     { "id": 2, "name": "Петр", "points": 12 },
     { "id": 3, "name": "Сергей", "points": 17 },
