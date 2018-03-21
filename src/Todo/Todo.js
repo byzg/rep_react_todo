@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import request from 'superagent';
 
 import './Todo.css';
+import TodoItem from "./TodoItem";
 
 export default class Todo extends Component {
   constructor(props) {
@@ -37,7 +38,9 @@ export default class Todo extends Component {
   render() {
     return (
       <div className="Todo">
-        { this.state.todoList.map((item, i)=> <div key={i}>{ item.title }</div>) }
+        { this.state.todoList.map((item, i)=> {
+          return <TodoItem item={item}/>
+        } )}
         <input onChange={this.setNewTodo}/>
         <button onClick={this.addTodo}>Add</button>
       </div>
