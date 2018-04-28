@@ -1,5 +1,5 @@
 {
-  "items": [
+  "todos": [
     { "id": 1, "title": "To eat", "checked": false },
     { "id": 2, "title": "To drink", "checked": true },
     { "id": 3, "title": "To sleep", "checked": false }
@@ -9,5 +9,9 @@
     { "id": 2, "name": "Петр", "points": 12 },
     { "id": 3, "name": "Сергей", "points": 17 },
     { "id": 4, "name": "Андрей", "points": 10 }
+  ],
+  "items": [
+    { "id": 1, "price": 15 },
+    { "id": 2, "price": 10 }
   ]
 }
